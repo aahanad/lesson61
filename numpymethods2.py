@@ -1,0 +1,13 @@
+import numpy as np
+array=np.arange(1,10)
+print(array)
+print(array[0:4])
+print(array[2:7])
+num=np.random.rand(3,3)
+print(num)
+print(num[1:2,1:2])
+num2=np.arange(1,50)
+reshape2=num2.reshape(7,7)
+print(reshape2)
+print(reshape2[2:5,2:5])
+print(num+reshape2[2:5,2:5])
