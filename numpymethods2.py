@@ -1,4 +1,3 @@
-import numpy as np
 array=np.arange(1,10)
 print(array)
 print(array[0:4])
@@ -11,3 +10,11 @@ reshape2=num2.reshape(7,7)
 print(reshape2)
 print(reshape2[2:5,2:5])
 print(num+reshape2[2:5,2:5])
+even_array=array[array%2==0]
+print (even_array)
+high_array=num2[num2>15]
+print(high_array)
+def line(x):
+    return(2*x+5)
+y=line(num2)
+print(y)
